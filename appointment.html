@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment | Janata Garrage</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="Garrage.logo.png"
+        alt="Janata Garrage Logo"
+        width="75"
+        height="75"
+      />
+      <h1>Welcome to Janata Garage</h1>
+
+      <nav>
+        <a href="home.html">Home</a> | <a href="services.html">Services</a> |
+        <a href="booking.html">Booking</a> |
+        <a href="contact@automob.co.in">Contact Us</a>
+      </nav>
+    </header>
+    <hr />
+    <main>
+        <form action="" method="post">
+      <h3>Schedule Your Appointment</h3>
+      <label for="App-date"
+        >Appointment Date:<input type="date" name="App-date" id="App-date"
+      /></label>
+      <br /><br />
+      <label for="address"
+        >Address: <br /><textarea
+          name="Address of the customer"
+          id="address"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </label>
+      <br /><br />
+      <label for="city"
+        >City:
+        <input
+          type="text"
+          required
+          placeholder="Eg: Hyd, Mumbai, Vizag...."
+          name="Customer City"
+          id="city"
+        /> </label
+      ><br /><br />
+      <label for="State"
+        >State:
+        <input
+          type="text"
+          required
+          placeholder="Eg:TS, AP, Kerla,Delhi..."
+          name="Customer State"
+          id="State"
+        /> </label
+      ><br /><br />
+      <label for="notification-type"
+          >Send Notification Via:
+          <input type="radio" name="Email" id="notification-type" />Email Id
+          <input type="radio" name="Diesel" id="notification-type" />SMS
+          </label
+        ><br /><br />
+        <button type="submit"><a href="booking-success.html">Book</a></button>
+        </form>
+    </main>
+    <hr />
+    <footer>Copyright &copy; 2020 Janata Garrage. All Rights Reserved.</footer>
+  </body>
+</html>

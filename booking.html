@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking | Janata Garrage</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="Garrage.logo.png"
+        alt="Janata Garrage Logo"
+        width="75"
+        height="75"
+      />
+      <h1>Welcome to Janata Garage</h1>
+
+      <nav>
+        <a href="home.html">Home</a> | <a href="services.html">Services</a> |
+        <a href="booking.html">Booking</a> |
+        <a href="contact@automob.co.in">Contact Us</a>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <h3>Book Your Service</h3>
+      <form action="post">
+        <label for="Name"
+          >Name:
+          <input
+            id="Name"
+            required
+            type="text"
+            pattern="[A-Za-z]+ [A-Za-z]+"
+            placeholder="Eg: Jaya"
+          />
+        </label>
+        <br /><br />
+        <label for="mail"
+          >Email Id:
+          <input
+            required
+            placeholder="Eg: jaya@gmail.com"
+            type="email"
+            id="mail"
+          />
+        </label>
+        <br /><br />
+        <label for="contact-number"
+          >Phone Number:
+          <select id="contact-number" required>
+            <option value="+213">+213</option>
+            <option value="+91">+91</option>
+            <option value="+913">+913</option>
+          </select>
+          <input placeholder="Eg: 9998887776" required type="number" />
+        </label>
+        <br /><br />
+        <label for="service-selection"
+          >Select Service:
+          <select id="service-selection" required>
+            <option value="Preventive Maintenance Service">
+              Preventive Maintenance Service
+            </option>
+            <option value="Body repair Service">Body repair Service</option>
+            <option value="Car Service Service">Car Service Service</option>
+          </select> </label
+        ><br /><br />
+        <label for="car-maker"
+          >Car Maker:
+          <input
+            type="text"
+            required
+            placeholder="Eg: Suzuki, Benz..."
+            name="car-maker"
+            id="car-maker"
+          /> </label
+        ><br /><br />
+        <label for="car-mode"
+          >Car Model:
+          <input
+            type="text"
+            required
+            placeholder="Eg: Alto, Fortuner..."
+            name="car-maker"
+            id="car-maker"
+          /> </label
+        ><br /><br />
+        <label for="fuel-type"
+          >Fuel Type:
+          <input type="radio" name="Petrol" id="fuel-type" />Petrol
+          <input type="radio" name="Diesel" id="fuel-type" />Diesel
+          <input type="radio" name="LPG" id="fuel-type" />LPG<input
+            type="radio"
+            name="EV"
+            id="fuel-type"
+          />EV</label
+        ><br /><br />
+        <label for="km-run">Kilometers Run:<input required type="number" name="Km-Run" id="km-run"></label>
+        <br /><br />
+        <button type="submit">
+          <a href="appointment.html">Schedule an Appointment</a>
+        </button>
+      </form>
+    </main>
+    <hr />
+    <footer>Copyright &copy; 2020 Janata Garrage. All Rights Reserved.</footer>
+  </body>
+</html>
